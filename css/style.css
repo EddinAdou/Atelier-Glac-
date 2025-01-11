@@ -10698,3 +10698,29 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    .mobile-only {
+      display: none;
+      text-align: center;
+      margin-top: -20px; /* Ajustez selon vos besoins */
+    }
+    
+    .mouse-icon {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #fff;
+      color: #000;
+      line-height: 40px;
+      font-size: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    @media (max-width: 768px) {
+      .mobile-only {
+        display: block;
+      }
+    }
+    
