@@ -10863,6 +10863,7 @@ h1.title + p {
   .home_button button {
     padding: 8px 20px;
     font-size: 0.9rem;
+    color: #0b0b0b;
   }
 }
 /* home page */
